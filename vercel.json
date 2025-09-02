@@ -3,8 +3,18 @@
   "buildCommand": "npx prisma generate && npm run build",
   "framework": "nextjs",
   "functions": {
-    "app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
+    "src/app/api/**/*.ts": {
+      "runtime": "nodejs20.x",
+      "maxDuration": 30
     }
-  }
+  },
+  "env": {
+    "DATABASE_URL": "@database_url"
+  },
+  "rewrites": [
+    {
+      "source": "/api/socketio",
+      "destination": "/api/socketio"
+    }
+  ]
 }
