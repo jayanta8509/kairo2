@@ -8,9 +8,6 @@
       "maxDuration": 30
     }
   },
-  "env": {
-    "DATABASE_URL": "@database_url"
-  },
   "rewrites": [
     {
       "source": "/api/socketio",
