@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "buildCommand": "prisma generate && npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "JWT_SECRET": "@jwt_secret",
+    "ADMIN_REGISTRATION_KEY": "@admin_registration_key",
+    "MAX_ADMIN_ACCOUNTS": "1"
+  }
+}
