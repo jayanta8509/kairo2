@@ -84,19 +84,9 @@ export default function AboutPage() {
       description: "Passionate about AI and its potential to transform businesses. Leading the vision and strategy."
     },
     {
-      name: "Sarah Chen",
+      name: "Prachi Majumder",
       role: "CTO",
       description: "Expert in machine learning and cloud infrastructure. Driving technical excellence."
-    },
-    {
-      name: "Michael Rodriguez",
-      role: "Lead AI Engineer",
-      description: "Specializing in LLMs and deep learning. Building cutting-edge AI solutions."
-    },
-    {
-      name: "Emily Johnson",
-      role: "Head of Operations",
-      description: "Ensuring smooth delivery and exceptional customer experience across all projects."
     }
   ]
 
@@ -236,7 +226,7 @@ export default function AboutPage() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -244,6 +234,7 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
+                className="w-full max-w-sm"
               >
                 <Card className="h-full glass-dark border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/20 hover-lift text-center">
                   <CardHeader>

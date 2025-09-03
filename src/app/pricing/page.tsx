@@ -90,15 +90,15 @@ export default function PricingPage() {
             </div>
             
             <TabsList className="flex justify-center w-full gap-1 bg-transparent p-1">
-              <TabsTrigger value="hosted" className="flex-1 text-lg px-4 py-3 data-[state=active]:bg-slate-800/50 data-[state=active]:border-purple-500/50">
+              <TabsTrigger value="hosted" className="flex-1 text-lg px-4 py-3 text-gray-300 data-[state=active]:text-white data-[state=active]:bg-slate-800/50 data-[state=active]:border-purple-500/50 hover:text-white transition-colors">
                 <Server className="w-5 h-5 mr-2" />
                 Hosted Cloud
               </TabsTrigger>
-              <TabsTrigger value="serverless" className="flex-1 text-lg px-4 py-3 data-[state=active]:bg-slate-800/50 data-[state=active]:border-purple-500/50">
+              <TabsTrigger value="serverless" className="flex-1 text-lg px-4 py-3 text-gray-300 data-[state=active]:text-white data-[state=active]:bg-slate-800/50 data-[state=active]:border-purple-500/50 hover:text-white transition-colors">
                 <Activity className="w-5 h-5 mr-2" />
                 Serverless
               </TabsTrigger>
-              <TabsTrigger value="all" className="flex-1 text-lg px-4 py-3 data-[state=active]:bg-slate-800/50 data-[state=active]:border-purple-500/50">
+              <TabsTrigger value="all" className="flex-1 text-lg px-4 py-3 text-gray-300 data-[state=active]:text-white data-[state=active]:bg-slate-800/50 data-[state=active]:border-purple-500/50 hover:text-white transition-colors">
                 <Zap className="w-5 h-5 mr-2" />
                 All Options
               </TabsTrigger>
