@@ -110,8 +110,8 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: Mail,
-      value: "helpdesk@kairoai.ai",
-      link: "mailto:helpdesk@kairoai.ai",
+      value: "kairoai.helpdesk@gmail.com",
+      link: "mailto:kairoai.helpdesk@gmail.com",
       label: "Email"
     },
     {

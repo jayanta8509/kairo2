@@ -10,7 +10,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![Prisma](https://img.shields.io/badge/Prisma-6.11.1-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
 
-[🌐 Website](https://www.kairoai.ai) • [📧 Contact](mailto:helpdesk@kairoai.ai) • [💬 Support](https://www.kairoai.ai/contact)
+[🌐 Website](https://www.kairoai.ai) • [📧 Contact](mailto:kairoai.helpdesk@gmail.com) • [💬 Support](https://www.kairoai.ai/contact)
 
 </div>
 
@@ -236,7 +236,7 @@ This project is proprietary software owned by KairoAI. All rights reserved.
 
 **KairoAI Team**
 - 🌐 Website: [www.kairoai.ai](https://www.kairoai.ai)
-- 📧 Email: [helpdesk@kairoai.ai](mailto:helpdesk@kairoai.ai)
+- 📧 Email: [kairoai.helpdesk@gmail.com](mailto:kairoai.helpdesk@gmail.com)
 - 📞 Phone: +91 80170 21283
 - 📍 Location: Kolkata, India
 - 🕒 Business Hours: Mon-Fri, 9AM-6PM IST
