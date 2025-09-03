@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![KairoAI Logo](public/logo.svg)
+![KairoAI Logo]
 
 **Deploy your AI models on high-performance GPU/CPU servers or get custom AI solutions built for your business needs.**
 
